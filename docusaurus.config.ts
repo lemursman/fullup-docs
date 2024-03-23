@@ -34,7 +34,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/lemursman/fullup-docs/tree/master/docs/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -92,17 +92,21 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Support',
+              href: 'https://support.getfullup.com',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/get_fullup',
             },
+            {
+              label: 'Instagram',
+              href: 'https://instagram.com/getfullup',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/getfullup',
+            }
           ],
         },
         {

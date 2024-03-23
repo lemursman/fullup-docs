@@ -33,16 +33,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/lemursman/fullup-docs/tree/master/docs/',
+          editUrl: 'https://github.com/lemursman/fullup-docs/tree/master/docs/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -52,8 +44,7 @@ const config: Config = {
 
   themeConfig: {
     defaultMode: 'dark',
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card-docs.png',
     navbar: {
       title: 'Docs',
       logo: {
@@ -64,9 +55,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'apiSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'API',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -106,7 +97,7 @@ const config: Config = {
             {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/company/getfullup',
-            }
+            },
           ],
         },
         {

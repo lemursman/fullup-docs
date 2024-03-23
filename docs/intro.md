@@ -2,46 +2,42 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Fullup APIs
 
-Let's discover **Docusaurus in less than 5 minutes**.
+As part of Fullup's expanding API ecosystem, webhooks are currently available to Fullup subscribers, providing a robust mechanism for real-time data synchronization and event-driven automation.
 
-## Getting Started
+## The Role of Webhooks in Fullup's API Ecosystem
 
-Get started by **creating a new site**.
+Webhooks are a critical component of Fullup's API ecosystem, designed to facilitate immediate communication between Fullup and external systems.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Unlike traditional APIs that require polling to check for updates, webhooks proactively push data to a specified URL endpoint in real-time when specific events occur. This enables businesses to automate responses to changes within Fullup, enhancing efficiency and responsiveness.
 
-### What you'll need
+## Leveraging Webhooks for Business Automation
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+With webhooks, businesses can automate a wide range of processes, including:
 
-## Generate a new site
+- Instant order status updates
+- Real-time inventory management
+- Automated customer notifications
+- Dynamic CRM updates
 
-Generate a new Docusaurus site using the **classic template**.
+This immediate flow of information allows businesses to stay ahead, ensuring that their systems and operations are always in sync with the latest events and data from Fullup.
 
-The classic template will automatically be added to your project after you run the command:
+## Setting Up Webhooks with Fullup
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Fullup alone radically improves automation for your rental business. If you want to extend automation to third party applications outside of Fullup, integrate Fullup webhooks into your operations.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+1. Once signed in as an admin on your Fullup site, go to `Settings`, and click on `Webhooks` under `Integrations`.
+1. Define a URL endpoint on your server to receive webhook data.
+1. Provide the URL where Fullup should send events.
+1. Configure the events (i.e. `scope`) that should trigger the webhook.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+This setup enables your business to start receiving real-time data from Fullup without delay.
 
-## Start your site
+## Anticipating the Full API Suite
 
-Run the development server:
+While webhooks offer significant value by themselves, they are just the beginning.
 
-```bash
-cd my-website
-npm run start
-```
+Fullup is actively developing a full API suite that will open up even more possibilities for businesses. This upcoming API will allow for comprehensive interactions with Fullup's platform, including adding users, creating business locations, managing orders, and much more.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The full API suite promises to provide a more integrated and seamless experience for businesses looking to leverage Fullup's capabilities.

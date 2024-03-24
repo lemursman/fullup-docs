@@ -25,6 +25,13 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Add robots.txt
+        run: |
+          cat >> ./build/robots.txt << EOF
+          User-agent: *
+          Disallow: /
+          EOF
+
       - name: Deploy
         uses: reggionick/s3-deploy@v4
         with:

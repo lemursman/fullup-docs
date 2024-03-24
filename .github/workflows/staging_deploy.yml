@@ -30,7 +30,7 @@ jobs:
         with:
           folder: build
           bucket: ${{ secrets.S3_BUCKET_NAME }}
-          bucket-region: us-east-1
+          bucket-region: ${{ secrets.AWS_REGION }}
           dist-id: ${{ secrets.CLOUDFRONT_DIST_ID }}
           invalidation: /*
           delete-removed: true

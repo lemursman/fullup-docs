@@ -43,7 +43,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    defaultMode: 'dark',
+    colorMode: {
+      defaultMode: 'dark',
+    },
     image: 'img/social-card-docs.png',
     navbar: {
       title: 'Docs',
@@ -74,8 +76,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Objects',
+              to: '/docs/category/objects',
+            },
+            {
+              label: 'Webhooks',
+              to: '/docs/category/webhooks',
             },
           ],
         },
@@ -103,6 +109,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
+            {
+              label: 'Fullup',
+              href: 'https://www.getfullup.com',
+            },
             {
               label: 'Blog',
               to: '/blog',

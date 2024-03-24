@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # Organization Location
 
-The Organization Location object is a key component within Fullup, representing the physical or virtual locations associated with an organization. This object is crucial for managing different operational areas, setting up service zones, and customizing offerings based on location-specific parameters.
+The Organization Location object is a key component within Fullup, representing the physical or virtual locations associated with an organization.
+
+This object is crucial for managing different operational areas, setting up service zones, and customizing offerings based on location-specific parameters.
 
 ## JSON Structure
 

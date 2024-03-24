@@ -23,16 +23,7 @@ With webhooks, businesses can automate a wide range of processes, including:
 
 This immediate flow of information allows businesses to stay ahead, ensuring that their systems and operations are always in sync with the latest events and data from Fullup.
 
-## Setting Up Webhooks with Fullup
-
-Fullup alone radically improves automation for your rental business. If you want to extend automation to third party applications outside of Fullup, integrate Fullup webhooks into your operations.
-
-1. Once signed in as an admin on your Fullup site, go to `Settings`, and click on `Webhooks` under `Integrations`.
-1. Define a URL endpoint on your server to receive webhook data.
-1. Provide the URL where Fullup should send events.
-1. Configure the events (i.e. `scope`) that should trigger the webhook.
-
-This setup enables your business to start receiving real-time data from Fullup without delay.
+See the [Webhooks](./webhooks/intro.md) section for more information.
 
 ## Anticipating the Full API Suite
 
